@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlinkShine/Background-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlinkShine/Background-Generator/issues"
+  },
+  "homepage": "https://github.com/BlinkShine/Background-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
